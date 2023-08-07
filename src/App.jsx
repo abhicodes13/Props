@@ -10,11 +10,11 @@ export default function App() {
   )
 }
 
-const Job=(pr)=>
+const Job=(props)=>
   (
     <div>
-     <h1>{pr.salary}</h1>
-      <h1>{pr.position}</h1>
-      <h1>{pr.company}</h1>
+     <h1>{props.salary}</h1>
+      <h1>{props.position}</h1>
+      <h1>{props.company}</h1>
     </div>
   )
